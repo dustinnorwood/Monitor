@@ -7,7 +7,7 @@ using MonadicCSharp;
 
 namespace Monitor
 {
-    public static class MonitorCommands
+    public static class MonitorCommands // Sample of creating several API commands
     {
         public static APICommand[] Commands = new APICommand[] {
         new APICommand("DT", a =>
